@@ -3,7 +3,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class BestemmieGen {
     public static void main(String[] args) {
         System.out.println("\nBenvenuto nel nuovissimo generatore di bestemmie!");
         System.out.println("Bestemmie sempre fresche pronte a vostra disposizione!");
