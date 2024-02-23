@@ -43,38 +43,38 @@ public class BestemmieGen {
     }
 
     public static void generaBestemmiaMacshile(String nomeSanto) {
-        String[] animali = {"pollo", "cane", "topo", "rospo", "pipistrello", "furetto",};
+        String[] animali = {"pollo", "cane", "topo", "rospo", "pipistrello", "furetto", "toro",};
 
         String[] insulti = {"stronzo", "coglione", "bastardo", "inutile", "deficiente", "rincoglionito",};
 
-        String[] verbi = {"inculato", "defenestrato", "castrato", "affogato", "deturpato",};
+        String[] verbi = {"inculato", "defenestrato", "castrato", "affogato", "deturpato", "ingroppato",};
 
-        String[] soggetto = {"da Satana", "da tu' madre", "dal prete pedofilo", "da Greg",};
+        String[] soggetto = {"da Satana", "da tu' madre", "dal prete pedofilo", "da Greg", "da Rocco Siffredi",};
 
         Random random = new Random();
-        int randAnim = random.nextInt(6);
+        int randAnim = random.nextInt(7);
         int randIns = random.nextInt(6);
-        int randVer = random.nextInt(5);
-        int randSogg = random.nextInt(4);
+        int randVer = random.nextInt(6);
+        int randSogg = random.nextInt(5);
 
         System.out.println("\n" + nomeSanto + " " + animali[randAnim] + " " + insulti[randIns] + " "
                 + verbi[randVer] + " " + soggetto[randSogg] + "!");
     }
 
     public static void generaBestemmiaFemminile(String nomeSanta) {
-        String[] animali = {"capra", "vacca", "puledra", };
+        String[] animali = {"capra", "vacca", "puledra", "maiala", "scrofa",};
 
         String[] insulti = {"pulla", "deficiente", "rincoglionita", "stronza", "bastarda", "cogliona",};
 
-        String[] verbi = {"inculata", "defenestrata", "scopata", "affogata", "deturpata",};
+        String[] verbi = {"inculata", "defenestrata", "scopata", "affogata", "deturpata", "smandrappata"};
 
-        String[] soggetto = {"da Satana", "da tu' madre", "dal prete pedofilo", "da Greg",};
+        String[] soggetto = {"da Satana", "da tu' madre", "dal prete pedofilo", "da Greg", "da Rocco Siffredi"};
 
         Random random = new Random();
-        int randAnim = random.nextInt(3);
+        int randAnim = random.nextInt(5);
         int randIns = random.nextInt(6);
-        int randVer = random.nextInt(5);
-        int randSogg = random.nextInt(4);
+        int randVer = random.nextInt(6);
+        int randSogg = random.nextInt(5);
 
         System.out.println("\n" + nomeSanta + " " + animali[randAnim] + " " + insulti[randIns] + " "
                 + verbi[randVer] + " " + soggetto[randSogg] + "!");
